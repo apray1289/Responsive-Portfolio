@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1900px) {
 
     body{ 
         margin: 0;
@@ -692,13 +692,14 @@
               }
               
               main {
-                height: 1500px;
+                height: auto;
                   width: 600px;
                   background-color: white;
                   margin-left: 1%;
                   border: solid 1px #ddd;
                   margin-top: 80%;
                   padding-bottom: 190px;
+                  
               }
               
               #main-contact {
@@ -748,7 +749,7 @@
               }
               
               .footer {
-                position: fixed;
+                position: sticky;
                 left: 0;
                 bottom: 0;
                 width: 100%;
